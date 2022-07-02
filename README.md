@@ -7,7 +7,7 @@ load malesmooth.mat
 incorrect = squareform(male1_unsmoothed);
 figure; imagesc(incorrect); 
 ```
-Figure immediately shows artifacts and you shoud immediately conclude something went wrong using the squareform function. The correct way is to use the vec2.adj.m function
+Figure immediately shows artifacts and you shoud immediately conclude something went wrong using the squareform function. The correct way is to use the vec2.adj.m function, which will show more realistic brain connectivity pattern.
 
 ```ruby
 correct = vec2adj(male1_unsmoothed); 
