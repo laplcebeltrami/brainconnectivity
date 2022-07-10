@@ -1,6 +1,6 @@
 The page introduces basic brain connecitivity manipulation tools
 
-How to convert vecotrized edge weights (q number of edges x 1) into connectivity matrix
+(1) How to convert vecotrized edge weights (q number of edges x 1) into connectivity matrix
 
 ```ruby 
 load malesmooth.mat
@@ -13,3 +13,11 @@ Figure immediately shows artifacts and you shoud immediately conclude something 
 correct = vec2adj(male1_unsmoothed); 
 figure; imagesc(correct);
 ```
+
+(2) How to use a single colorbar to represent data on nodes (dgree) and edges (correlations). 
+
+c=colorbar;
+c.Ticks= [0 5 10 15 20 25 30 35 40 45 50]
+c.TicksMode ='Manual'
+str = c.Ticks/50;
+c.TickLabels = arrayfun(@num2str, c.Ticks/50, 'UniformOutput', 0) 
