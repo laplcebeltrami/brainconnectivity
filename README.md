@@ -1,6 +1,6 @@
 The page introduces basic brain connecitivity manipulation tools
 
-(1) How to convert vecotrized edge weights (q number of edges x 1) into connectivity matrix
+## (1) How to convert vecotrized edge weights (q number of edges x 1) into connectivity matrix
 
 ```ruby 
 load malesmooth.mat
