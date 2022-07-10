@@ -17,7 +17,7 @@ figure; imagesc(correct);
 
 
 ### (2) How to use a single colorbar to represent data on nodes and edges simultaneously. 
-In the figure below, the edge color correpsonds to the edge weight computed as teh Pearson correlation. Only edges above 0.7 correlation is shown. The node color and size corresnpond to the weighted node dgree (sum of all the edge weights connecting to the node). The weighted node degrees can be up to 50 for functional brain networks and a different color map is neededt to display the weighted degree. To avoid using the two color maps, the weighted node degrees are scaled down by diviging the degree by 50. Then colorbar is manually fixed at [0, 1] by using manual thick lables 0.0, 0.1, 0.2, ... 0.9, 1.0 as follows.
+In the figure below, the edge color correpsonds to the edge weight computed as the Pearson correlation. Only edges above 0.7 correlation is shown. The node color and size corresnpond to the weighted node dgree (sum of all the edge weights connecting to the node). The weighted node degrees can be up to 50 for functional brain networks and a different color map is neededt to display the weighted degree. To avoid using the two color maps, the weighted node degrees are scaled down by diviging the degree by 50. Then colorbar is manually fixed at [0, 1] by using manual thick lables 0.0, 0.1, 0.2, ... 0.9, 1.0 as follows.
 
 ![alt text](https://github.com/laplcebeltrami/networktools/blob/main/degreemap.jpg?raw=true)
 
