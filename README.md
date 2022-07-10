@@ -25,6 +25,5 @@ In the figure below, the edge color correpsonds to the edge weight computed as t
 c=colorbar;
 c.Ticks= [0 5 10 15 20 25 30 35 40 45 50]
 c.TicksMode ='Manual'
-str = c.Ticks/50;
 c.TickLabels = arrayfun(@num2str, c.Ticks/50, 'UniformOutput', 0) 
 ```
