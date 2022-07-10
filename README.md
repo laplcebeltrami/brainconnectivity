@@ -16,7 +16,7 @@ figure; imagesc(correct);
 
 (2) How to use a single colorbar to represent data on nodes (dgree) and edges (correlations). 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/laplacebeltrami/networktools/image.jpg?raw=true)
 
 ```ruby
 c=colorbar;
