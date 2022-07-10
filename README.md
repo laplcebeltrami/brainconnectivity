@@ -14,7 +14,7 @@ correct = vec2adj(male1_unsmoothed);
 figure; imagesc(correct);
 ```
 
-(2) How to use a single colorbar to represent data on nodes (dgree) and edges (correlations). 
+(2) How to use a single colorbar to represent data on nodes and edges simultaneously.
 
 ![alt text](https://github.com/laplacebeltrami/networktools/image.jpg?raw=true)
 
