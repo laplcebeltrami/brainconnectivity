@@ -1,4 +1,4 @@
-The page introduces basic brain connecitivity manipulation tools.
+The page introduces Matlab-based basic brain connecitivity manipulation techniques.
 
 ### (1) How to convert vecotrized edge weights (q number of edges x 1) into connectivity matrix
 
